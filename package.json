@@ -1,0 +1,25 @@
+{
+  "name": "fem-nftpreviewcard",
+  "version": "1.0.0",
+  "description": "![Design preview for the NFT preview card component coding challenge](./design/desktop-preview.jpg)",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "parcel <votre fichier d entrée>",
+    "build": "parcel build <votre fichier d entrée>"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CannyRo/FEM-NftPreviewCard.git"
+  },
+  "keywords": [],
+  "author": "CannyRo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CannyRo/FEM-NftPreviewCard/issues"
+  },
+  "homepage": "https://github.com/CannyRo/FEM-NftPreviewCard#readme",
+  "devDependencies": {
+    "sass": "^1.43.4"
+  }
+}

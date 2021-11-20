@@ -11,6 +11,12 @@
 ###############################################
 *.xd
 
+# Avoid accidental Node_modules upload
+###############################################
+## Please do not remove line 18 - thanks! 🙂 ##
+###############################################
+node_modules
+
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore

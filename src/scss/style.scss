@@ -1,0 +1,62 @@
+// Imports, Use, Forward, ...
+@use './util/minreset.scss';
+@use './util' as *;
+
+// Règle d'écriture d'une classe :
+// 1) Box
+// 2) Border
+// 3) Background
+// 4) Text
+// 5) Other
+
+// Règle BEM
+// Block = card
+// Element = image, title, describe, devise, value, date, avatar, autor
+// Modifier = here isn't modifier
+
+// ___Base___
+body{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: $main-bg;
+    font-family: $font-outfit;
+    font-size: rem(18);
+}
+footer{
+    margin-top: auto;
+    text-align: center;
+    font-size: rem(11);
+    color: $white;
+}
+
+// ___Layout___
+.card{
+    width: rem(327);
+    height: rem(543);
+    justify-self: center;
+    align-self: center;
+    margin-top: rem(62);
+    border-radius: rem(15);
+    background-color: $card-bg;
+    overflow: hidden;
+    &__header {
+        width: rem(278);
+        height: rem(278);
+        margin: rem(24);
+        border-radius: rem(15);
+        overflow: hidden;
+        text-decoration: none;
+    }
+}
+
+// ___Module___
+
+// ___State___
+
+// ___Theme___
+.attribution{
+    color: hsl(228, 45%, 44%);
+}
