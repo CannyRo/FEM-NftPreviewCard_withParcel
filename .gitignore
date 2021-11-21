@@ -11,12 +11,13 @@
 ###############################################
 *.xd
 
-# Avoid accidental Node_modules upload
+# Avoid accidental Node_modules upload etc.
 ###############################################
 ## Please do not remove line 18 - thanks! 🙂 ##
 ###############################################
 node_modules
-
+dist
+.cache
 # Avoid your project being littered with annoying .DS_Store files!
 .DS_Store
 .prettierignore
