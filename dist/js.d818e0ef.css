@@ -1,0 +1,198 @@
+/*! minireset.css v0.0.6 | MIT License | github.com/jgthms/minireset.css */
+html, body, p, ol, ul, li, dl, dt, dd, blockquote, figure, fieldset, legend, textarea, pre, iframe, hr, h1, h2, h3, h4, h5, h6 {
+  margin: 0;
+  padding: 0;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-size: 100%;
+  font-weight: normal;
+}
+
+ul {
+  list-style: none;
+}
+
+button, input, select {
+  margin: 0;
+}
+
+html {
+  box-sizing: border-box;
+}
+
+*, *::before, *::after {
+  box-sizing: inherit;
+}
+
+img, video {
+  height: auto;
+  max-width: 100%;
+}
+
+iframe {
+  border: 0;
+}
+
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+td, th {
+  padding: 0;
+}
+
+/* Inspired by https://css-tricks.com/snippets/sass/mixin-manage-breakpoints/ and https://github.com/thecodercoder/fem-dklt-toggle */
+/* https://css-tricks.com/snippets/sass/px-to-em-functions/ */
+/* ___ Primary ___ */
+/* ___ Neutral ___ */
+body {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #0d192b;
+  font-family: "Outfit", sans-serif;
+  font-size: 1.125rem;
+}
+
+footer {
+  margin-top: auto;
+  text-align: center;
+  font-size: 0.6875rem;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:visited {
+  color: inherit;
+}
+
+.card {
+  width: 20.4375rem;
+  height: 33.9375rem;
+  justify-self: center;
+  align-self: center;
+  margin-top: 3.875rem;
+  border-radius: 0.9375rem;
+  background-color: #14253d;
+  overflow: hidden;
+}
+.card__header {
+  width: 17.375rem;
+  height: 17.375rem;
+  margin: 1.5rem;
+  border-radius: 0.9375rem;
+  overflow: hidden;
+}
+.card__content {
+  width: 17.375rem;
+  height: auto;
+  margin-left: 1.5rem;
+  margin-top: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1rem;
+}
+.card__title {
+  margin-bottom: 0.75rem;
+  color: white;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 1.375rem;
+  line-height: 1.75rem;
+}
+.card__describe {
+  margin-bottom: 1rem;
+  color: #8bacda;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 1.125rem;
+  line-height: 1.625rem;
+}
+.card__value {
+  box-sizing: content-box;
+  display: flex;
+  justify-content: space-between;
+  height: 1.1875rem;
+  padding-bottom: 1rem;
+  border-bottom: 0.125rem solid #2f415b;
+}
+.card__footer {
+  width: 17.375rem;
+  height: auto;
+}
+.card__autor {
+  display: flex;
+  align-items: center;
+  width: 17.375rem;
+  height: 2.0625rem;
+  margin-left: 1.5rem;
+  margin-right: 1.5rem;
+  margin-bottom: 1.5rem;
+}
+
+.value {
+  display: flex;
+  color: #00fff7;
+  font-weight: 600;
+  font-style: normal;
+  font-size: 0.9375rem;
+  line-height: 1.1875rem;
+}
+
+.value img {
+  width: auto;
+  height: 100%;
+  margin-right: 0.405rem;
+}
+
+.date {
+  display: flex;
+  color: #8bacda;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9375rem;
+  line-height: 1.1875rem;
+}
+
+.date img {
+  width: auto;
+  height: 100%;
+  margin-right: 0.48125rem;
+}
+
+.card__autor img {
+  width: auto;
+  height: 100%;
+  margin-right: 1rem;
+  border: 0.0625rem solid white;
+  border-radius: 100%;
+}
+
+.card__autor p {
+  color: #8bacda;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 0.9375rem;
+  line-height: 1.1875rem;
+}
+
+.card__autor a {
+  color: white;
+  margin-left: 0.3125rem;
+}
+
+.attribution {
+  color: #3e52a3;
+}
+
+.attribution:visited {
+  color: #3e52a3;
+}
+
+/*# sourceMappingURL=/js.d818e0ef.css.map */
